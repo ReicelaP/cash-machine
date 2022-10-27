@@ -1,7 +1,7 @@
-﻿using CashMachine.Interfaces;
-using CashMachine.Validators;
+﻿using CashMachines.Interfaces;
+using CashMachines.Validators;
 
-namespace CashMachine.Models
+namespace CashMachines.Models
 {
     public class User : IUser
     {

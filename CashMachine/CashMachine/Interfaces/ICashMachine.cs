@@ -1,4 +1,4 @@
-﻿namespace CashMachine.Interfaces
+﻿namespace CashMachines.Interfaces
 {
     public interface ICashMachine
     {
