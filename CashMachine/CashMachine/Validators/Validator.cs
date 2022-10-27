@@ -1,7 +1,7 @@
-﻿using CashMachine.Exceptions;
+﻿using CashMachines.Exceptions;
 using System.Linq;
 
-namespace CashMachine.Validators
+namespace CashMachines.Validators
 {
     public class Validator
     {
@@ -17,9 +17,17 @@ namespace CashMachine.Validators
         {
             int[] valid = { 5, 10, 20, 50, 100 };
 
-            if(!cash.ToList().Intersect(valid).Any())
+            if(!cash.ToList().All(c => valid.Contains(c)))
             {
                 throw new InvalidCashException();
+            }
+        }
+
+        public static void WithdrawMoneyValidator(int amount)
+        {
+            if(amount <= 0 || amount % 5 != 0)
+            {
+                throw new InvalidAmountException(amount);
             }
         }
     }
