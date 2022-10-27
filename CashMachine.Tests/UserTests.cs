@@ -1,10 +1,10 @@
-using CashMachine.Exceptions;
-using CashMachine.Models;
+using CashMachines.Exceptions;
+using CashMachines.Models;
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
-namespace CashMachine.Tests
+namespace CashMachines.Tests
 {
     [TestClass]
     public class UserTests
