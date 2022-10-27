@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashMachine", "CashMachine\CashMachine.csproj", "{B516C9A5-2020-41B1-9DB0-02399D4F5769}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashMachines", "CashMachine\CashMachines.csproj", "{B516C9A5-2020-41B1-9DB0-02399D4F5769}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashMachine.Tests", "..\CashMachine.Tests\CashMachine.Tests.csproj", "{00C1BF14-0F09-4EA2-B054-2EDEDA0EED5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashMachines.Tests", "..\CashMachine.Tests\CashMachines.Tests.csproj", "{00C1BF14-0F09-4EA2-B054-2EDEDA0EED5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
