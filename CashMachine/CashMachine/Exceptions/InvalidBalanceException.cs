@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CashMachine.Exceptions
+namespace CashMachines.Exceptions
 {
     public class InvalidBalanceException : Exception
     {
